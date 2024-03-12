@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.CV-Title {
+  display: flex;
+  background-color: gainsboro;
+  border: none;
+}
+.CV-Title-left {
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+}
+.CV-Title-right {
+  width: 100%;
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.CV-Body {
+  margin-left: 20px;
+  display: flex;
+}
+.CV-Body-left {
+  margin: 50px;
+  width: 80%;
+}
+.linetime {
+  margin-bottom: 10px;
+  position: relative;
+}
+.linetime::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 130%;
+  background: gainsboro;
+  left: -25px;
+  top: 6px;
+}
+.linetime::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: black;
+  left: -28px;
+  top: 5px;
+}
+.CV-Body-right {
+  width: 80%;
+  margin-right: 20px;
+}
+.CV-Body-right button {
+  padding: 7px;
+  background-color: #0073ff;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.pblue {
+  color: #0073ff;
+  display: flex;
+}
+.pleft {
+  text-align: left;
+  width: 100%;
+}
+.pright {
+  text-align: right;
+  width: 100%;
+}
+.CV-Footer {
+  display: flex;
+  background-color: gainsboro;
+  border: none;
+}
+.CV-Footer-left {
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+}
+.CV-Footer-right {
+  width: 100%;
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 25px;
+  align-items: center;
+  justify-content: center;
+}
