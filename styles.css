@@ -6,13 +6,17 @@ body {
 }
 .CV-Title {
   display: flex;
-  background-color: gainsboro;
+  background-color: rgb(220, 220, 220, 0.5);
   border: none;
+  color: grey;
 }
 .CV-Title-left {
   width: 100%;
   float: left;
   padding-left: 20px;
+}
+.CV-Title-left h1 {
+  color: black;
 }
 .CV-Title-right {
   width: 100%;
