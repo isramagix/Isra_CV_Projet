@@ -3,41 +3,41 @@ body {
   border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
-.CV-Title {
+  }
+  .CV-Title {
   display: flex;
   background-color: rgb(220, 220, 220, 0.5);
   border: none;
   color: grey;
-}
-.CV-Title-left {
+  }
+  .CV-Title-left {
   width: 100%;
   float: left;
   padding-left: 20px;
-}
-.CV-Title-left h1 {
+  }
+  .CV-Title-left h1 {
   color: black;
-}
-.CV-Title-right {
+  }
+  .CV-Title-right {
   width: 100%;
   float: right;
   text-align: right;
   padding-right: 20px;
-}
+  }
 
-.CV-Body {
+  .CV-Body {
   margin-left: 20px;
   display: flex;
-}
-.CV-Body-left {
+  }
+  .CV-Body-left {
   margin: 50px;
   width: 80%;
-}
-.linetime {
+  }
+  .linetime {
   margin-bottom: 10px;
   position: relative;
-}
-.linetime::before {
+  }
+  .linetime::before {
   content: "";
   position: absolute;
   width: 3px;
@@ -45,8 +45,8 @@ body {
   background: gainsboro;
   left: -25px;
   top: 6px;
-}
-.linetime::after {
+  }
+  .linetime::after {
   content: "";
   position: absolute;
   width: 8px;
@@ -55,41 +55,44 @@ body {
   background: black;
   left: -28px;
   top: 5px;
-}
-.CV-Body-right {
+  }
+  .fecha {
+    left: -30px;
+  }
+  .CV-Body-right {
   width: 80%;
   margin-right: 20px;
-}
-.CV-Body-right button {
+  }
+  .CV-Body-right button {
   padding: 7px;
   background-color: #0073ff;
   border-radius: 5px;
   color: white;
   border: none;
-}
-.pblue {
+  }
+  .pblue {
   color: #0073ff;
   display: flex;
-}
-.pleft {
+  }
+  .pleft {
   text-align: left;
   width: 100%;
-}
-.pright {
+  }
+  .pright {
   text-align: right;
   width: 100%;
-}
-.CV-Footer {
+  }
+  .CV-Footer {
   display: flex;
   background-color: gainsboro;
   border: none;
-}
-.CV-Footer-left {
+  }
+  .CV-Footer-left {
   width: 100%;
   float: left;
   padding-left: 20px;
-}
-.CV-Footer-right {
+  }
+  .CV-Footer-right {
   width: 100%;
   float: right;
   text-align: right;
@@ -97,4 +100,4 @@ body {
   padding-top: 25px;
   align-items: center;
   justify-content: center;
-}
+  }
